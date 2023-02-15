@@ -1,0 +1,29 @@
+.heroWrapper {
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-left: 3em;
+}
+.navContainer {
+  background-color: aquamarine;
+  margin-right: 10em;
+  margin-top: 8em;
+}
+.heroContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 60vh;
+}
+.heroTitleText {
+  font-size: 45px;
+  font-weight: 700;
+}
+.heroTitleDiv {
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+.heroLeft {
+  max-width: 60vw;
+}
