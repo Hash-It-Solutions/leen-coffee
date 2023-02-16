@@ -4,3 +4,7 @@
   padding: 1em;
   justify-content: space-around;
 }
+.navText {
+  font-size: 20px;
+  font-weight: 500;
+}
