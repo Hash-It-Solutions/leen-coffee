@@ -13,10 +13,6 @@
 .heroContentWrapper {
   padding-left: 5em;
 }
-.heroCup {
-  display: flex;
-  justify-content: flex-end;
-}
 .navContainer {
   margin-right: 10em;
   margin-top: 8em;
@@ -46,7 +42,18 @@
   max-height: 100%;
   object-fit: cover;
 }
+.heroCup {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -6em;
+}
 .heroDescriptionDiv {
   max-width: 25vw;
   font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .navContainer {
+    margin-right: 2em;
+  }
 }

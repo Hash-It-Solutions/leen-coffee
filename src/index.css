@@ -1,3 +1,8 @@
 body {
   margin: 0;
 }
+:root {
+  --prim-text: black;
+  --sec-text: #01b0b3;
+  --prim-bg: #b6a460;
+}

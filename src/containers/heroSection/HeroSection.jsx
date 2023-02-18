@@ -1,6 +1,6 @@
 import { FacebookOutlined, Twitter, YouTube } from "@mui/icons-material"
+import { Button } from "@mui/material"
 import React from "react"
-import { Button } from "react-bootstrap"
 import Navbar from "../../components/navbar/Navbar"
 // import.meta.env.BASE_URL
 import "./HeroSection.css"
@@ -25,8 +25,12 @@ const HeroSection = () => {
                 </span>
               </div>
               <div className="heroButtons mt-5">
-                <Button className="ms-2">Testy Coffee</Button>
-                <Button className="ms-2">Read More</Button>
+                <Button variant="contained" className="ms-2">
+                  Testy Coffee
+                </Button>
+                <Button variant="outlined" className="ms-2">
+                  Read More
+                </Button>
               </div>
               <div className="socialMedia mt-5">
                 <div className="facebook ms-2">
