@@ -7,7 +7,7 @@
 a {
   text-decoration: none;
 }
-header {
+.navBarWrapper {
   position: fixed;
   width: 100%;
   top: 0;
@@ -16,10 +16,18 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: transparent;
-  padding: 28px 12%;
+  padding: 10px 12%;
   transition: all 0.5s ease;
   font-size: 18px;
+}
+.navBarWrapper.active {
+  background: rgb(236, 234, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(236, 234, 228, 1) 0%,
+    rgba(222, 206, 188, 1) 35%,
+    rgba(183, 132, 77, 1) 100%
+  );
 }
 .navBar a {
   color: var(--prim-text);
@@ -66,7 +74,7 @@ header {
     top: 100%;
     right: -100%;
     width: 29vh;
-    background-color: rgb(231, 134, 7);
+    background-color: var(--sec-bg);
   }
   .navBar a {
     display: block;

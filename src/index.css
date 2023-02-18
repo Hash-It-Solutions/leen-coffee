@@ -5,4 +5,8 @@ body {
   --prim-text: black;
   --sec-text: #01b0b3;
   --prim-bg: #b6a460;
+  --sec-bg: #523021;
+  --yellow-bg: #eac900;
+  --blue-bg: #01b0b3;
+  --brown-bg: #523021;
 }

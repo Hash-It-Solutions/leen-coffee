@@ -3,9 +3,19 @@ import React, { useState } from "react"
 import "./Navbar.css"
 const Navbar = () => {
   const [menuClick, setMenuClick] = useState(false)
+  const [navBar, setNavBar] = useState(false)
+
+  const changeBg = () => {
+    if (window.scrollY >= 150) {
+      setNavBar(true)
+    } else {
+      setNavBar(false)
+    }
+  }
+  window.addEventListener("scroll", changeBg)
   return (
     <>
-      <header>
+      <header className={navBar ? "navBarWrapper active" : "navBarWrapper"}>
         <a href="/" className="logo">
           <img src="/images/logo.png" alt="" width="80px" height="80px" />
         </a>

@@ -16,19 +16,19 @@ const HeroSection = () => {
           <div className="heroContent">
             <div className="heroLeft">
               <div className="heroTitleDiv">
-                <span className="heroTitleText">ROOSTED COFFEE FOR YOU</span>
+                <h1 className="heroTitleText">ROOSTED COFFEE FOR YOU</h1>
               </div>
               <div className="heroDescriptionDiv">
-                <span className="heroDescriptionText">
+                <p className="heroDescriptionText">
                   The coffee if brewed by first roasting the green cofee beans
                   over hot coals in a brazier. given an opportunity to sample
-                </span>
+                </p>
               </div>
-              <div className="heroButtons mt-5">
-                <Button variant="contained" className="ms-2">
+              <div className="heroButtons ">
+                <Button variant="contained" className="heroButton ms-2">
                   Testy Coffee
                 </Button>
-                <Button variant="outlined" className="ms-2">
+                <Button variant="outlined" className="readButton ms-2">
                   Read More
                 </Button>
               </div>
@@ -47,8 +47,15 @@ const HeroSection = () => {
                 </div>
               </div>
               <div className="heroCup mt-5">
-                <img src="/images/cup.jpg" className="cupImage" alt="" />
+                <img src="/images/cup.png" className="cupImage" alt="" />
               </div>
+              <img
+                src="/images/arabic jug 1.svg"
+                alt=""
+                className="arabicJugMobile"
+                width="70%"
+                height="50%"
+              />
             </div>
             <div className="heroRight">
               <img
