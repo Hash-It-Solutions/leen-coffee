@@ -10,3 +10,10 @@ body {
   --blue-bg: #01b0b3;
   --brown-bg: #523021;
 }
+.primaryButton {
+  background-color: var(--sec-text) !important;
+}
+.roundedCorner {
+  border: 1px solid transparent;
+  border-radius: 1em;
+}

@@ -1,8 +1,16 @@
 .aboutWrapper {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  background-color: url("/public/images/aboutBg.jpg");
+  padding-top: 10em;
+  padding-bottom: 10em;
+  background-image: url("/images/aboutBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+.yellowBg {
+  background-color: var(--yellow-bg) !important;
+  color: black !important;
 }
 .aboutBg {
   position: absolute;
@@ -10,4 +18,21 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.aboutImg {
+  width: 100%;
+  object-fit: cover;
+}
+.yellowBg {
+  background-color: var(--yellow-bg);
+}
+.paraText {
+  text-align: justify;
+}
+@media screen and (max-width: 1920px) {
+  .customContainer {
+    max-width: 1600px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }

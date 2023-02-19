@@ -8,6 +8,7 @@ import Menu from "../../containers/menu/Menu"
 import Popularproducts from "../../containers/popularProducts/Popularproducts"
 import Review from "../../containers/review/Review"
 import Blog from "../../containers/blog/Blog"
+import Carousel from "../../containers/carousel/Carousel"
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <div className="homePageWrapper">
         <HeroSection />
         <About />
+        <Carousel />
         <History />
         <Menu />
         <Popularproducts />

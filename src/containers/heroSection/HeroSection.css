@@ -111,6 +111,7 @@
     left: 45%;
     position: absolute;
     transform: translateX(-50%);
+    z-index: -1;
   }
   .cupImage {
     display: none;

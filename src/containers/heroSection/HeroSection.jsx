@@ -13,7 +13,7 @@ const HeroSection = () => {
           <div className="navContainer">
             <Navbar />
           </div>
-          <div className="heroContent">
+          <div className="heroContent ">
             <div className="heroLeft">
               <div className="heroTitleDiv">
                 <h1 className="heroTitleText">ROOSTED COFFEE FOR YOU</h1>
