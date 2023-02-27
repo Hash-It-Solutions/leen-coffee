@@ -1,3 +1,11 @@
 .historyWrapper {
-  background-color: red;
+  background-color: #00afb3;
+}
+.historyImage {
+  width: 100%;
+  object-fit: cover;
+}
+.historyContainer {
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
