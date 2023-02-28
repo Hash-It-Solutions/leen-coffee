@@ -13,7 +13,7 @@ const About = () => {
               </Button>
             </div>
             <div className="col-md-6 col-12">
-              <h1 className="subHeading">ABOUT LEEN COFFEE</h1>
+              <h1 className="headingText">ABOUT LEEN COFFEE</h1>
               <p className="paraText">
                 Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut
                 quam quis quam venenatis fringilla. Morbi vestibulum id tellus

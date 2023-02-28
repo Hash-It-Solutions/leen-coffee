@@ -30,4 +30,8 @@
     width: 90%;
     margin-right: 0%;
   }
+  .menuHead {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
 }

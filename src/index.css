@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Jost", sans-serif;
 }
 :root {
   --prim-text: black;
@@ -39,4 +40,16 @@ body {
   font-weight: 400;
   border-radius: 5px;
   color: white;
+}
+
+.headingText {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+
+.thinText {
+  font-weight: 200 !important;
+}
+.yellowText {
+  color: #eac900 !important;
 }

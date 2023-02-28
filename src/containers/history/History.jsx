@@ -12,7 +12,7 @@ const History = () => {
             <div className="col-md-5 p-2 my-auto">
               <div className="historyContent">
                 <p className="yellowHead">Our History</p>
-                <h1 className="historyTitle">CREATE A NEW STORY WITH US</h1>
+                <h1 className="headingText">CREATE A NEW STORY WITH US</h1>
                 <p className="historyDescription">
                   Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod
                   nisl suscipit ligula volutpat, a feugiat urna maximus. Cras

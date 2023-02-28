@@ -8,9 +8,9 @@ const Menu = () => {
         <img src="/images/menuCup.png" alt="" className="menuCup" />
         <div className="menuContentWrapper">
           <div className="row">
-            <div className="col-6 text-center offset-3">
+            <div className="col-6 menuHead text-center offset-3 mb-5">
               <p className="yellowHead">MENU</p>
-              <h1 className="menuTitle">CAFENA POPULAR MENU</h1>
+              <h1 className="headingText">CAFENA POPULAR MENU</h1>
             </div>
             <div className="col-md-6 ">
               <MenuItem />

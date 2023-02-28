@@ -16,7 +16,7 @@ const HeroSection = () => {
           <div className="heroContent ">
             <div className="heroLeft">
               <div className="heroTitleDiv">
-                <h1 className="heroTitleText">ROOSTED COFFEE FOR YOU</h1>
+                <h1 className="heroTitleText">ROSTED COFFEE FOR YOU</h1>
               </div>
               <div className="heroDescriptionDiv">
                 <p className="heroDescriptionText">
