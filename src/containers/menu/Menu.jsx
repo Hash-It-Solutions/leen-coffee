@@ -18,7 +18,7 @@ const Menu = () => {
   // }, [])
   return (
     <>
-      <div className="menuWrapper">
+      <div id="menu" className="menuWrapper">
         <img
           src="/images/menuCup.png"
           alt=""

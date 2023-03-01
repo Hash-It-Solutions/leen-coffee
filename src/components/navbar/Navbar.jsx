@@ -1,5 +1,6 @@
 import { Close, Menu } from "@mui/icons-material"
 import React, { useState } from "react"
+import { Link } from "react-router-dom"
 import "./Navbar.css"
 const Navbar = () => {
   const [menuClick, setMenuClick] = useState(false)
@@ -21,15 +22,17 @@ const Navbar = () => {
         </a>
         <ul className={`navBar${menuClick ? " open" : ""}`}>
           <li>
-            <a href="#" className="active">
+            <Link to={"/"}>Home</Link>
+            {/* <a href="#" className="active">
               Home
-            </a>
+            </a> */}
           </li>
           <li>
-            <a href="">About</a>
+            {/* <a href="">About</a> */}
+            <Link to={"/about"}>About</Link>
           </li>
           <li>
-            <a href="">Menu</a>
+            <a href="#menu">Menu</a>
           </li>
           <li>
             <a href="">Contact</a>
