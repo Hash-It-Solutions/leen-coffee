@@ -54,3 +54,11 @@
     text-align: center;
   }
 }
+@media screen and (min-width: 2000px) {
+  .footerContent {
+    max-width: 1600px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

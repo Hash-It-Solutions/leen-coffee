@@ -35,3 +35,11 @@
     margin-left: 10% !important;
   }
 }
+@media screen and (min-width: 2000px) {
+  .menuWrapper {
+    max-width: 1600px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

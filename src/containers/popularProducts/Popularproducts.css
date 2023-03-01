@@ -32,3 +32,11 @@
     cursor: pointer;
   }
 }
+@media screen and (min-width: 1920px) {
+  .popularProWrapper {
+    max-width: 1600px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

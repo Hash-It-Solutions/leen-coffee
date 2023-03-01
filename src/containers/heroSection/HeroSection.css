@@ -119,3 +119,11 @@
     display: none;
   }
 }
+@media screen and (min-width: 2000px) {
+  .heroContentWrapper {
+    max-width: 1600px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

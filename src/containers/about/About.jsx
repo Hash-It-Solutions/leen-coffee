@@ -7,12 +7,10 @@ const About = () => {
       <div className="aboutWrapper">
         <div className="customContainer">
           <div className="row">
-            <div className="col-12">
-              <Button variant="contained" disabled className="yellowBg">
-                About Us
-              </Button>
+            <div className="col-12 mb-3">
+              <p className="yellowHead">ABOUT US</p>
             </div>
-            <div className="col-md-6 col-12">
+            <div className="col-md-6 aboutLeen col-12 mb-3">
               <h1 className="headingText">ABOUT LEEN COFFEE</h1>
               <p className="paraText">
                 Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut

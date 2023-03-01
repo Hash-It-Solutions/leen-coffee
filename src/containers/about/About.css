@@ -5,8 +5,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 10em;
+  padding-right: 10em;
 }
 .yellowBg {
   background-color: var(--yellow-bg) !important;
@@ -29,10 +29,52 @@
 .paraText {
   text-align: justify;
 }
-@media screen and (max-width: 1920px) {
+.aboutLeen {
+  padding-right: 10% !important;
+}
+
+@media screen and (min-width: 2000px) {
   .customContainer {
+    max-width: 1200px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1920px) {
+  /* .customContainer {
     max-width: 1600px;
     margin-left: 5%;
     margin-right: 5%;
+  } */
+}
+@media screen and (max-width: 768px) {
+  .aboutWrapper {
+    padding-top: 5em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-image: url("/images/aboutBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .customContainer {
+    text-align: center;
+  }
+  .paraText {
+    text-align: center;
+  }
+  .aboutLeen {
+    padding-right: 0 !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .aboutWrapper {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .aboutLeen {
+    padding-right: 0 !important;
   }
 }
