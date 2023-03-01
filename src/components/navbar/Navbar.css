@@ -74,7 +74,7 @@ a {
     top: 100%;
     right: -100%;
     width: 29vh;
-    background-color: var(--sec-bg);
+    background-color: #b8854f;
   }
   .navBar a {
     display: block;
