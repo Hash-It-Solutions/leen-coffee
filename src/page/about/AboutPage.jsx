@@ -1,6 +1,7 @@
 import { CheckBoxOutlined } from "@mui/icons-material"
 import React from "react"
 import Navbar from "../../components/navbar/Navbar"
+import Footer from "../../containers/footer/Footer"
 import WhyComponent from "../../containers/whychooseus/WhyComponent"
 import "./AboutPage.css"
 const AboutPage = () => {
@@ -68,6 +69,7 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   )
