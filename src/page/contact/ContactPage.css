@@ -1,0 +1,35 @@
+.contactPageWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.contactFormWrapper {
+  background-color: white;
+  background-image: url("/images/contactBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+}
+.formContent {
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  padding: 3em;
+}
+.contactInput {
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.contactText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contactItem {
+  display: flex;
+  align-items: center;
+}
