@@ -1,8 +1,116 @@
 .aboutPageWrapper {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
 }
 .aboutHero {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("/images/aboutHero.jpg");
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+}
+.aboutHeroContentWrapper {
+  background-image: url("/images/hero.jpg");
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutSecondWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("/images/secondAbout.jpg");
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4em;
+}
+.teaMaker {
+  max-width: 500px;
+}
+.aboutSecondRight {
+  max-width: 35%;
+}
+.checkItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1em;
+}
+.aboutText {
+  font-weight: 400;
+  color: grey;
+}
+.checkText {
+  font-weight: 500;
+  margin-left: 0.6em;
+}
+@media screen and (max-width: 900px) {
+  .aboutSecondRight {
+    max-width: 100%;
+  }
+  .aboutSecondWrapper {
+    display: block;
+    padding: 1em;
+  }
+  .teaMaker {
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 2em;
+  }
+}
+
+.aboutLastWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.imgWrapper {
+}
+.aboutLast {
+  max-width: 90%;
+}
+.bottomCard {
+  background-color: white;
+  margin-left: -4em;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 4em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 40%;
+  transition: 1s all ease;
+}
+@media screen and (max-width: 1400px) {
+  .bottomCard {
+    margin-left: -6em;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .aboutLastWrapper {
+    flex-direction: column;
+  }
+  .bottomCard {
+    margin-top: -3em;
+    max-width: 80%;
+    margin-left: 0;
+    padding: 2em;
+  }
+  .aboutLast {
+    border-left: 1px solid transparent;
+    border-radius: 80px;
+  }
+  .cardHead {
+    font-size: 30px !important;
+  }
 }

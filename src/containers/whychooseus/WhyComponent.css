@@ -1,0 +1,33 @@
+.whyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00afb3;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.dataCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.dataCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--brown-bg);
+  color: white;
+  min-width: 20em;
+}
+@media screen and (max-width: 960px) {
+  .dataCards {
+    flex-direction: column;
+  }
+  .dataCard {
+    margin-top: 1em;
+  }
+}
