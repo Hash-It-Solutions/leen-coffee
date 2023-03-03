@@ -19,7 +19,7 @@ const ContactPage = () => {
             <div className="row">
               <div className="col-12 ps-2">
                 <div className="row">
-                  <div className="col-4">
+                  <div className="col-sm-4">
                     <div className="contactItem">
                       <img
                         src="/images/contactMail.jpg"
@@ -27,14 +27,14 @@ const ContactPage = () => {
                         className="contactIcon"
                       />
                       <div className="contactText">
-                        <h3 className="headingText">MAIL</h3>
+                        <h3 className="contactHead">CONTACT US</h3>
                         <p className="mailText">
                           Israfilsupol836@gmail.com 088 - 01869018907
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-sm-4">
                     <div className="contactItem">
                       <img
                         src="/images/contactLoc.jpg"
@@ -42,14 +42,14 @@ const ContactPage = () => {
                         className="contactIcon"
                       />
                       <div className="contactText">
-                        <h3 className="headingText">MAIL</h3>
+                        <h3 className="contactHead">OUR LOCATION</h3>
                         <p className="mailText">
-                          Israfilsupol836@gmail.com 088 - 01869018907
+                          Hera Road 2344-78 Australia 897- South Side Melbon
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-sm-4">
                     <div className="contactItem">
                       <img
                         src="/images/contactTime.jpg"
@@ -57,23 +57,23 @@ const ContactPage = () => {
                         className="contactIcon"
                       />
                       <div className="contactText">
-                        <h3 className="headingText">MAIL</h3>
+                        <h3 className="contactHead">OPENING HOURS</h3>
                         <p className="mailText">
-                          Israfilsupol836@gmail.com 088 - 01869018907
+                          Mon - Sat (8:00 - 6:00) Sunday - Closed
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-6 ps-2">
+              <div className="col-md-6 col-12 ps-2">
                 <input
                   className="form-control contactInput"
                   placeholder="Your Name:"
                   type="text"
                 />
               </div>
-              <div className="col-6 ps-2">
+              <div className="col-12 col-md-6 ps-2">
                 <input
                   className="form-control contactInput"
                   placeholder="Your Mail:"

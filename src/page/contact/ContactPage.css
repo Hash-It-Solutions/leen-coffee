@@ -29,7 +29,33 @@
   flex-direction: column;
   align-items: flex-start;
 }
+.contactHead {
+  font-size: 35px;
+  font-family: "Bebas Neue", cursive;
+}
 .contactItem {
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 1500px) {
+  .contactItem {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactText {
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 924px) {
+  .contactHead {
+    font-size: 24px;
+  }
+  .contactFormWrapper {
+    padding: 1em;
+  }
+  .formContent {
+    width: 100%;
+  }
 }
