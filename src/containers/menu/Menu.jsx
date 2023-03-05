@@ -40,22 +40,46 @@ const Menu = () => {
             >
               <div className="row">
                 <div className="col-md-6 ">
-                  <MenuItem />
+                  <MenuItem
+                    itemName={"AMERICANO ROSTED GRED"}
+                    imgName={"cup3.png"}
+                    price={"12"}
+                  />
                 </div>
                 <div className="col-md-6 ">
-                  <MenuItem />
+                  <MenuItem
+                    itemName={"JAPANIS COFFEE GRED"}
+                    imgName={"cup4.png"}
+                    price={"12"}
+                  />
                 </div>
                 <div className="col-md-6 ">
-                  <MenuItem />
+                  <MenuItem
+                    itemName={"VIRGIN COFFEE GRED"}
+                    imgName={"cupCircle.jpg"}
+                    price={"12"}
+                  />
                 </div>
                 <div className="col-md-6 ">
-                  <MenuItem />
+                  <MenuItem
+                    itemName={"JAPANIS ROSTED GRED"}
+                    imgName={"cup3.png"}
+                    price={"12"}
+                  />
                 </div>
                 <div className="col-md-6 ">
-                  <MenuItem />
+                  <MenuItem
+                    itemName={"CAFE AU LAIT COFFEE"}
+                    imgName={"cup2.png"}
+                    price={"12"}
+                  />
                 </div>
                 <div className="col-md-6 ">
-                  <MenuItem />
+                  <MenuItem
+                    itemName={"EXPRESSO RISTRETTO"}
+                    imgName={"cupCircle.jpg"}
+                    price={"12"}
+                  />
                 </div>
               </div>
             </div>

@@ -54,3 +54,6 @@ body {
 .yellowText {
   color: #eac900 !important;
 }
+.arrow {
+  cursor: pointer;
+}

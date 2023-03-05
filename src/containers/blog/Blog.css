@@ -14,3 +14,41 @@
   flex-direction: column;
   align-items: center;
 }
+.blogs {
+  width: 100%;
+}
+.animateCards {
+  animation: fadeIn ease-in-out 1s;
+}
+.reanimate {
+  animation: fadeOut ease-in-out 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

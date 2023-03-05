@@ -16,7 +16,9 @@ const Navbar = () => {
   window.addEventListener("scroll", changeBg)
   return (
     <>
-      <header className={navBar ? "navBarWrapper active" : "navBarWrapper"}>
+      <header
+        className={navBar ? "navBarWrapper active g-0" : "navBarWrapper g-0"}
+      >
         <a href="/" className="logo">
           <img src="/images/logo.png" alt="" width="80px" height="80px" />
         </a>
