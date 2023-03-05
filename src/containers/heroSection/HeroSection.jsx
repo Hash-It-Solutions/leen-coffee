@@ -20,8 +20,8 @@ const HeroSection = () => {
               </div>
               <div className="heroDescriptionDiv">
                 <p className="heroDescriptionText">
-                  The coffee if brewed by first roasting the green cofee beans
-                  over hot coals in a brazier. given an opportunity to sample
+                  The coffee is brewed by first roasting the green coffee beans
+                  over hot coals in a brazier. given an opportunity to sample.
                 </p>
               </div>
               <div className="heroButtons ">

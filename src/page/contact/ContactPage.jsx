@@ -1,10 +1,40 @@
-import React from "react"
+import React, { useEffect, useRef } from "react"
 import Navbar from "../../components/navbar/Navbar"
 import Footer from "../../containers/footer/Footer"
+import emailjs from "@emailjs/browser"
 import "./ContactPage.css"
+import { toast, ToastContainer } from "react-toastify"
 const ContactPage = () => {
+  const form = useRef()
+
+  useEffect(() => {
+    console.log("serviceid", import.meta.env.VITE_MAILJS_SERVICEID)
+  }, [])
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_MAILJS_SERVICEID,
+        import.meta.env.VITE_TEMPLATE_ID,
+        form.current,
+        import.meta.env.VITE_MAIL_JS_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text)
+          toast.success("Message has been sent")
+          form.current.reset()
+        },
+        (error) => {
+          console.log(error.text)
+          toast.error("Something went Wrong!")
+        }
+      )
+  }
   return (
     <>
+      <ToastContainer position="top-right" />
       <div className="contactPageWrapper">
         <div className="aboutHeroContentWrapper">
           <div className="navContainer">
@@ -66,37 +96,51 @@ const ContactPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-12 ps-2">
-                <input
-                  className="form-control contactInput"
-                  placeholder="Your Name:"
-                  type="text"
-                />
-              </div>
-              <div className="col-12 col-md-6 ps-2">
-                <input
-                  className="form-control contactInput"
-                  placeholder="Your Mail:"
-                  type="text"
-                />
-              </div>
-              <div className="col-12 ps-2">
-                <input
-                  className="form-control contactInput"
-                  placeholder="Enter Your Subject:"
-                  type="text"
-                />
-              </div>
-              <div className="col-12 ps-2">
-                <input
-                  className="form-control contactInput"
-                  placeholder="Your Message:"
-                  type="text"
-                />
-              </div>
-              <div className="col-12 text-center">
-                <p className="brownButton contactInput mx-auto">SEND MESSAGE</p>
-              </div>
+              <form ref={form} onSubmit={sendEmail}>
+                <div className="row">
+                  <div className="col-md-6 col-12 ps-2">
+                    <input
+                      className="form-control contactInput"
+                      placeholder="Your Name:"
+                      type="text"
+                      name="from_name"
+                    />
+                  </div>
+                  <div className="col-12 col-md-6 ps-2">
+                    <input
+                      className="form-control contactInput"
+                      placeholder="Your Mail:"
+                      type="text"
+                      name="user_email"
+                    />
+                  </div>
+                  <div className="col-12 ps-2">
+                    <input
+                      className="form-control contactInput"
+                      placeholder="Enter Your Subject:"
+                      type="text"
+                      name="subject"
+                    />
+                  </div>
+                  <div className="col-12 ps-2">
+                    <input
+                      className="form-control contactInput"
+                      placeholder="Your Message:"
+                      type="text"
+                      name="message"
+                    />
+                  </div>
+                  <div className="col-12 text-center">
+                    <button
+                      id="brownButton"
+                      className="brownButton btn  contactInput mx-auto"
+                      type="submit"
+                    >
+                      SEND MESSAGE
+                    </button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
