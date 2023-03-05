@@ -94,8 +94,22 @@ const ContactPage = () => {
                   type="text"
                 />
               </div>
+              <div className="col-12 text-center">
+                <p className="brownButton contactInput mx-auto">SEND MESSAGE</p>
+              </div>
             </div>
           </div>
+        </div>
+        <div style={{ width: "100%", marginTop: "50px", padding: "1em" }}>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165450.61165537397!2d75.79370920151526!3d11.239175435668763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x32150641ca32ecab!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1678014042584!5m2!1sen!2sin"
+            width="100%"
+            height="450"
+            style={{ border: "0px" }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
         <Footer />
       </div>
