@@ -13,7 +13,7 @@ const MenuPage = () => {
             <h1 className="heroTitle">Menu</h1>
           </div>
         </div>
-        <div className="menuContentWrapper">content</div>
+        <div className="menuContentWrapper"></div>
       </div>
     </>
   )
