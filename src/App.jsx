@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "react-toastify/dist/ReactToastify.css"
 import AboutPage from "./page/about/AboutPage"
 import ContactPage from "./page/contact/ContactPage"
+import MenuPage from "./page/menu/MenuPage"
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/menu" element={<MenuPage />} />
       </Routes>
     </BrowserRouter>
   )

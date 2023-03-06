@@ -1,8 +1,14 @@
 .carouselWrapper {
-  padding-left: 8em;
-  padding-right: 8em;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 @media screen and (max-width: 768px) {
+  .carouselWrapper {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+}
+@media screen and (max-width: 568px) {
   .carouselWrapper {
     padding-left: 2em;
     padding-right: 2em;
@@ -11,7 +17,7 @@
 @media screen and (min-width: 1400px) {
   .carouselWrapper {
     max-width: 1600px;
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }

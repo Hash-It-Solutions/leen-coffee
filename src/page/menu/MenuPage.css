@@ -1,0 +1,4 @@
+.menuPageWrapper {
+  display: flex;
+  flex-direction: column;
+}
