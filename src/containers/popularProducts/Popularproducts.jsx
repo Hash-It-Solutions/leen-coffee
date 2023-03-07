@@ -53,8 +53,15 @@ const Popularproducts = () => {
           </div>
           {hasData && (
             <div className="loadMore text-center">
-              <Button variant="contained" onClick={loadProducts}>
-                LOAD MORE
+              <Button
+                className="loadMoreButton"
+                style={{
+                  background: "linear-gradient(#ecc01b, #00afb3, #533420)",
+                }}
+                variant="contained"
+                onClick={loadProducts}
+              >
+                <b>LOAD MORE</b>
               </Button>
               {/* <img
                 src="/images/arrow.jpg"

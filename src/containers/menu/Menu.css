@@ -73,6 +73,11 @@
     width: 80% !important;
     margin-left: 10% !important;
   }
+  .menuItemName {
+    margin-bottom: 0;
+    font-size: 16px !important;
+    margin-left: 4px;
+  }
 }
 @media screen and (min-width: 2000px) {
   .menuWrapper {

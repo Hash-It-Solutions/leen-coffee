@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "../../components/navbar/Navbar"
+import Menu from "../../containers/menu/Menu"
 import "./MenuPage.css"
 const MenuPage = () => {
   return (
@@ -13,7 +14,9 @@ const MenuPage = () => {
             <h1 className="heroTitle">Menu</h1>
           </div>
         </div>
-        <div className="menuContentWrapper"></div>
+        <div className="menuPageContentWrapper ">
+          <Menu />
+        </div>
       </div>
     </>
   )
