@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "../../components/navbar/Navbar"
+import Footer from "../../containers/footer/Footer"
 import Menu from "../../containers/menu/Menu"
 import "./MenuPage.css"
 const MenuPage = () => {
@@ -17,6 +18,7 @@ const MenuPage = () => {
         <div className="menuPageContentWrapper ">
           <Menu />
         </div>
+        <Footer />
       </div>
     </>
   )
