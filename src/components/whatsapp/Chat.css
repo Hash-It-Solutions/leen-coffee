@@ -1,11 +1,10 @@
-.homePageWrapper {
-  overflow-x: hidden;
-}
 /* for desktop */
 .whatsapp_float {
   position: fixed;
   bottom: 40px;
   right: 40px;
+  max-width: 70px;
+  max-height: 70px;
   margin-top: auto;
   margin-bottom: auto;
   z-index: 100;

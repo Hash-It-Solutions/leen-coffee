@@ -4,6 +4,7 @@ import Footer from "../../containers/footer/Footer"
 import emailjs from "@emailjs/browser"
 import "./ContactPage.css"
 import { toast, ToastContainer } from "react-toastify"
+import Chat from "../../components/whatsapp/Chat"
 const ContactPage = () => {
   const form = useRef()
 
@@ -156,6 +157,7 @@ const ContactPage = () => {
           ></iframe>
         </div>
         <Footer />
+        <Chat />
       </div>
     </>
   )

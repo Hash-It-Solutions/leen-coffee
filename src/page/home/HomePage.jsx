@@ -9,6 +9,7 @@ import Popularproducts from "../../containers/popularProducts/Popularproducts"
 import Review from "../../containers/review/Review"
 import Blog from "../../containers/blog/Blog"
 import Carousel from "../../containers/carousel/Carousel"
+import Chat from "../../components/whatsapp/Chat"
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
         <Review />
         <Blog />
         <Footer />
+        <Chat />
       </div>
     </>
   )
