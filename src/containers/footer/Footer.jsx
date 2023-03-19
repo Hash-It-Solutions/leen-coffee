@@ -20,7 +20,7 @@ const Footer = () => {
                   <SmartphoneOutlined />
                 </div>
                 <span className="footerTitle">PHONE:</span>
-                <span className="footerText">+88010330702520</span>
+                <span className="footerText">0557694858</span>
               </div>
               <div className="footerAddress col-md-6 col-12">
                 <div className="phoneIcon">

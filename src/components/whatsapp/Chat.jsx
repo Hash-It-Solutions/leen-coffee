@@ -4,7 +4,7 @@ const Chat = () => {
   return (
     <>
       <a
-        href="https://api.whatsapp.com/send?phone=966509291127"
+        href="https://api.whatsapp.com/send?phone=966557694858"
         className=""
         target="_blank"
         rel="noopener noreferrer"

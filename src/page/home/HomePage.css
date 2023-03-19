@@ -1,22 +1,4 @@
 .homePageWrapper {
   overflow-x: hidden;
 }
-/* for desktop */
-.whatsapp_float {
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  margin-top: auto;
-  margin-bottom: auto;
-  z-index: 100;
-}
 
-/* for mobile */
-@media screen and (max-width: 767px) {
-  .whatsapp_float {
-    bottom: 20px;
-    right: 10px;
-    max-height: 50px;
-    max-width: 50px;
-  }
-}
