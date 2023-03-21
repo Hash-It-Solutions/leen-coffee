@@ -28,3 +28,8 @@
   top: -30px;
   left: -30px;
 }
+@media screen and (max-width: 768px) {
+  .menuPrice {
+    font-size: 18px;
+  }
+}

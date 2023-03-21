@@ -6,8 +6,7 @@ const MenuItem = ({ itemName, imgName, price }) => {
       <div className="menuItem">
         <h5 className="menuItemName">{itemName}</h5>
         <div className="menuPrice">
-          <img src="/images/rupee.png" className="rupeeIcon" alt="" />
-          <span className="menuPrice">{price}</span>
+          <span className="menuPrice">{price} SAR</span>
         </div>
         <img src={`/images/${imgName}`} alt="" className="cupCircle" />
       </div>

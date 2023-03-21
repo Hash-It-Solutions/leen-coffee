@@ -2,7 +2,10 @@ import React from "react"
 import Navbar from "../../components/navbar/Navbar"
 import Chat from "../../components/whatsapp/Chat"
 import Footer from "../../containers/footer/Footer"
+import ColdDrinks from "../../containers/menu/ColdDrinks"
+import HotDrinks from "../../containers/menu/HotDrinks"
 import Menu from "../../containers/menu/Menu"
+import Sweets from "../../containers/menu/Sweets"
 import "./MenuPage.css"
 const MenuPage = () => {
   return (
@@ -17,7 +20,9 @@ const MenuPage = () => {
           </div>
         </div>
         <div className="menuPageContentWrapper ">
-          <Menu />
+          <ColdDrinks />
+          <HotDrinks />
+          <Sweets />
         </div>
         <Footer />
         <Chat />
