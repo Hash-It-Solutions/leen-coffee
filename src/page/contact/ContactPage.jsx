@@ -59,9 +59,8 @@ const ContactPage = () => {
                       />
                       <div className="contactText">
                         <h3 className="contactHead">CONTACT US</h3>
-                        <p className="mailText">
-                          leencoffee.sa@gmail.com +966 557694858
-                        </p>
+                        <p className="mailText">leencoffee.sa@gmail.com</p>
+                        <p className="mailText">+966 557694858</p>
                       </div>
                     </div>
                   </div>
@@ -73,9 +72,13 @@ const ContactPage = () => {
                         className="contactIcon"
                       />
                       <div className="contactText">
-                        <h3 className="contactHead">OUR LOCATION</h3>
-                        <p className="mailText">
-                          Hera Road 2344-78 Australia 897- South Side Melbon
+                        <h3 className="contactHead text-center">
+                          OUR LOCATION
+                        </h3>
+                        <p className="mailText ">
+                          LEEN COFFEE PVT LIMITED 44/186A, KN BUILDING, OPP
+                          COOPERATIVE BANK,PATTARKULLAM,NERUKARA P.0
+                          MANJERI,Malappuram,Kerala,India 676122
                         </p>
                       </div>
                     </div>

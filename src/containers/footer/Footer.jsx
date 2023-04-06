@@ -21,14 +21,18 @@ const Footer = () => {
                   <SmartphoneOutlined />
                 </div>
                 <span className="footerTitle">PHONE:</span>
-                <span className="footerText">0557694858</span>
+                <span className="footerText">+966 557694858</span>
               </div>
               <div className="footerAddress col-md-6 col-12">
                 <div className="phoneIcon">
                   <LocationOnOutlined />
                 </div>
                 <span className="footerTitle">ADDRESS:</span>
-                <span className="footerText">30 North West New</span>
+                <span className="footerText">
+                  LEEN COFFEE PVT LIMITED 44/186A, KN BUILDING, OPP COOPERATIVE
+                  BANK,PATTARKULLAM,NERUKARA P.0 MANJERI,Malappuram,Kerala,India
+                  676122
+                </span>
               </div>
               <div className="footerDescription mt-3 col-md-7 col-12">
                 <p className="footerText">
