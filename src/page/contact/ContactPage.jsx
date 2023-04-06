@@ -60,7 +60,7 @@ const ContactPage = () => {
                       <div className="contactText">
                         <h3 className="contactHead">CONTACT US</h3>
                         <p className="mailText">
-                          Israfilsupol836@gmail.com 088 - 01869018907
+                          leencoffee.sa@gmail.com +966 557694858
                         </p>
                       </div>
                     </div>
