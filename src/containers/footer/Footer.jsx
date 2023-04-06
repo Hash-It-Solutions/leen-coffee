@@ -8,6 +8,7 @@ import {
 } from "@mui/icons-material"
 import React from "react"
 import "./Footer.css"
+import { Link } from "react-router-dom"
 const Footer = () => {
   return (
     <>
@@ -90,15 +91,36 @@ const Footer = () => {
               </div>
               <div className="col-12">
                 <div className="socialMedia mt-2">
-                  <div className="facebook ms-2">
-                    <FacebookOutlined />
-                  </div>
-                  <div className="twitter ms-2">
-                    <Twitter />
-                  </div>
-                  <div className="youtube ms-2">
-                    <YouTube />
-                  </div>
+                  <a
+                    href={
+                      "https://www.facebook.com/profile.php?id=100089564019054&mibextid=ZbWKwL"
+                    }
+                    className="link"
+                  >
+                    <div className="facebook ms-2">
+                      <img src="https://img.icons8.com/color/48/null/facebook-new.png" />
+                    </div>
+                  </a>
+                  <a
+                    href={
+                      "https://twitter.com/LeenCoffee?t=AWFuhrldcW-gOaY4A_U-Zg&s=08"
+                    }
+                    className="link"
+                  >
+                    <div className="twitter ms-2">
+                      <img src="https://img.icons8.com/color/48/null/twitter--v1.png" />
+                    </div>
+                  </a>
+                  <a
+                    href={
+                      "https://www.tiktok.com/@leencoffeesa?_t=8bF259IpMKl&_r=1"
+                    }
+                    className="link"
+                  >
+                    <div className="youtube ms-2">
+                      <img src="https://img.icons8.com/color/48/null/tiktok--v1.png" />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
