@@ -1,0 +1,7 @@
+.sweets {
+  max-width: 3em;
+  min-width: 3em;
+  max-height: 3em;
+  min-height: 3em;
+  object-fit: cover;
+}

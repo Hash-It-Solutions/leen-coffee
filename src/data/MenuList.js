@@ -61,11 +61,12 @@ export const hotDrinks = [
 ]
 
 export const sweets = [
-  ["Crolssant", "5"],
-  ["Donut", "6"],
-  ["Cookie", "6"],
-  ["Muffin", "5"],
-  ["Pancake", "10-15"],
-  ["Cripe", "10-15"],
-  ["Water", "1"],
+  ["Crolssant", "5", "/croissant.webp"],
+  ["Donut", "6", "/donuts.jpg"],
+  ["Cookie", "6", "/cookes.webp"],
+  ["Muffin", "5", "/muffins.jpg"],
 ]
+
+// ["Pancake", "10-15"],
+//   ["Cripe", "10-15"],
+//   ["Water", "1"],

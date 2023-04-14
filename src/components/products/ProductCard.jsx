@@ -3,9 +3,13 @@ import "./ProductCard.css"
 const ProductCard = ({ star, productName, price }) => {
   return (
     <>
-      <div className="col-md-3 col-6">
+      <div className="col-lg-3 col-sm-6 col-12">
         <div className="productCard ">
-          <img src="/images/coffeeGred.jpg" alt="" className="productImage" />
+          <img
+            src="/images/coffeePowerPack.png"
+            alt=""
+            className="productImage"
+          />
           <div className="starRating">{star} star</div>
           <p className="productName text-center">{productName}</p>
           <div className="productPrice text-center">PRICE - ${price}</div>

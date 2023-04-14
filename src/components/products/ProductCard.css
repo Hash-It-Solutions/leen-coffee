@@ -20,6 +20,7 @@
 }
 .productImage {
   min-width: 7em;
+  max-width: 15em;
 }
 @media screen and (max-width: 1200px) {
   .productCard {

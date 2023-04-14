@@ -31,11 +31,17 @@ const Sweets = () => {
                 {sweets.map((item) => {
                   return (
                     <div key={item[0]} className="col-md-6 ">
-                      <MenuItem
-                        itemName={item[0]}
-                        imgName={"cup4.png"}
-                        price={item[1]}
-                      />
+                      <div className="menuItem">
+                        <h5 className="menuItemName">{item[0]}</h5>
+                        <div className="menuPrice">
+                          <span className="menuPrice">{item[1]} SAR</span>
+                        </div>
+                        <img
+                          src={`/images/${item[2]}`}
+                          alt=""
+                          className="sweets"
+                        />
+                      </div>
                     </div>
                   )
                 })}
